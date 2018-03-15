@@ -7,4 +7,4 @@ eureka:
       instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 target:
-  name: 이준택
+  name: 오준환

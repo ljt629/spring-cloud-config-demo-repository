@@ -1,2 +1,10 @@
 greeting:
   bye: 애쓰셨어용
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2

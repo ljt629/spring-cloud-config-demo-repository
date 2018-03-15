@@ -1,13 +1,13 @@
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://localhost:8761
   instance:
+    preferIpAddress: true
     leaseRenewalIntervalInSeconds: 3
     leaseExpirationDurationInSeconds: 10
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 target:
   name: 이준택
-
-greeting:
-  hello: 안녕하세용

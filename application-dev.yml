@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761
+  instance:
+    leaseRenewalIntervalInSeconds: 3
+    leaseExpirationDurationInSeconds: 10
+
+target:
+  name: 이준택
+
+greeting:
+  hello: 안녕하세용

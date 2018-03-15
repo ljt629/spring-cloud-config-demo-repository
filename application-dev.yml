@@ -8,3 +8,6 @@ eureka:
 
 target:
   name: 이준택
+
+greeting:
+  hello: 안녕하세용

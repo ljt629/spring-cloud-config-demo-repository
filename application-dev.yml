@@ -2,9 +2,9 @@ eureka:
   instance:
     preferIpAddress: true
     leaseRenewalIntervalInSeconds: 3
-    leaseExpirationDurationInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
     metadataMap:
       instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 target:
-  name: 오준환
+  name: 이준택
